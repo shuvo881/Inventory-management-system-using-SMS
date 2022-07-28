@@ -1,0 +1,39 @@
+body{
+  margin-top: 20px;
+  background: lightgray;
+}
+.main{
+  padding: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.topbar{
+  background: teal;
+  overflow: hidden;
+}
+.topbar a{
+  float: right;
+  color: whitesmoke;
+  text-align: center;
+  padding: 20px 26px;
+  text-decoration: none;
+  font-size: 26px;
+}
+.loginbox input[type="submit"]{
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #fb2525;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
+  background: linear-gradient(130deg, #34495e, #1abc9c);
+}
+
+.card{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.content{
+  background-color: white;
+}
